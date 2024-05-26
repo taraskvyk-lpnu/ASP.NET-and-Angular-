@@ -108,6 +108,9 @@ ipch/
 *.vspx
 *.sap
 
+# Виключити папку obj
+obj/
+
 # Visual Studio Trace Files
 *.e2e
 
