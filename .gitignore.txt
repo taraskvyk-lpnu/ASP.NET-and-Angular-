@@ -1,0 +1,84 @@
+# Конфігураційні файли
+*.config
+
+# Користувацькі конфігураційні файли
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+# Visual Studio 2019
+.vscode/
+.vs/
+.vscode/
+
+# Папки побудови
+bin/
+obj/
+
+# NuGet пакети
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Папки побудови та публікації
+publish/
+PublishedWebsites/
+
+# Ігнорувати файли налаштування модуля компіляції
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ігнорувати файли з контролю версій бази даних
+*.mdf
+*.ldf
+
+# Ігнорувати лог-файли
+*.log
+
+# Ігнорувати файли середовища
+.env
+
+# Ігнорувати налаштування локального web-сервера
+*.vspscc
+*.vssscc
+
+# Ігнорувати конфігураційні файли Visual Studio Code
+.vscode/
+
+# Ігнорувати файли npm та Yarn
+node_modules/
+yarn.lock
+
+# Ігнорувати залежності та конфігурації JetBrains Rider
+.idea/
+.idea/*
+
+# Ігнорувати ресурси та статичні файли, згенеровані
+wwwroot/
+
+# Ігнорувати згенеровані файли коду
+Generated_Code/
+
+# Ігнорувати файли налаштувань, специфічних для користувача
+*.swp
+*.swo
+*.bak
+*.pid
+
+# Ігнорувати Docker файли
+Dockerfile
+.dockerignore
+
+# Ігнорувати налаштування та папки build
+build/
+
+# Ігнорувати специфічні для системи файли
+.DS_Store
+Thumbs.db
